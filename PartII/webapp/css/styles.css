@@ -1,0 +1,180 @@
+body{
+	font-family: "Verdana";
+	min-height: 100%;
+}
+
+*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -230px; /* the bottom margin is the negative value of the footer's height */
+}
+footer, .push {
+    height: 230px; /* .push must be the same height as .footer */
+		text-align: center;
+}
+
+footer{
+	background-color: gray;
+
+}
+
+.col-1{width: 10%;}
+.col-2{width: 20%;}
+.col-3{width: 30%;}
+.col-4{width: 40%;}
+.col-5{width: 50%;}
+.col-6{width: 60%;}
+.col-7{width: 70%;}
+.col-8{width: 80%;}
+.col-9{width: 90%;}
+.col-10{width: 100%;}
+
+[class*="col-"]{
+	float: left;
+	padding: 15px;
+}
+
+.columnas::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.upper{
+	background-color: orange;
+}
+
+
+
+a{
+	display: block;
+	text-align: right;
+}
+
+nav{
+	background-color: black;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: red;
+}
+
+.paginacion{
+	text-align: right;
+}
+
+span{
+
+	display: inline;
+}
+
+
+a{
+
+	display: inline;
+}
+
+.paginacion{
+	text-align: center;
+}
+
+.units{
+	width: 3em;
+	text-align: right;
+}
+
+.errores{
+	color:red;
+}
+
+td{
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.imgprod{
+	height: 100px;
+	width: 100px;
+}
+
+.proddesc{
+	text-align: left;
+}
+
+.buscador{
+	text-align: center;
+}
+
+.buscador input{
+	height: 3em;
+	width: 30em;
+}
+
+.buscador button{
+	height: 2.5em;
+}
+
+.buscador span{
+	font-size: 1.5em;
+}
+
+.carrito{
+	text-align: right;
+}
+
+.login{
+	margin-top: 10%;
+	margin-left: 35%;
+}
+
+.error_login{
+	color: red;
+}
+
+.strongpass {
+	background-color: green
+}
+
+.middlepass {
+	background-color: yellow
+}
+
+.weakpass {
+	background-color: red
+}
+
+.nanpass {
+	background-color: lightyellow
+}
+
+.tags{
+
+	min-height: 100%;
+
+}
+
+.opt_carrito{
+	text-decoration: none;
+}
+
+.opt_carrito:visited{
+	color: black;
+}
+
+.opt_carrito:hover{
+	color: orange;
+}
